@@ -1,0 +1,77 @@
+.nav11{
+  text-decoration: none;
+ color: black;
+}
+
+
+
+/* Card */
+*{
+  margin: 0;
+  padding: 0;
+}
+.like{
+  align-items: center;
+  /* background-color: #f2a592; */
+  border: 1px solid gray ;
+  margin-top: 20px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: .3fr 1fr .01fr;
+  grid-template-areas: 
+  "likeA" "like2" "like3";
+}
+.red{
+  color: red;
+}
+.likeA{
+  width: 100%;
+}
+.like1{
+  width: 100%;
+  border-radius: 10px;
+}
+.like2{
+  margin-left: 20px;
+  padding: 10px;
+}
+.like3{
+  padding: 10px;
+ 
+}
+.con{
+ margin-top: 20px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 550px){
+  .like{
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr .4fr .2fr ;
+    grid-template-areas: 
+    "likeA"
+    "like2"
+    "like3";
+
+  }
+  .like3{
+  text-align: center;
+
+  }
+
+}
+
+.footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+ }
+.foot{
+  padding:10px;
+ }
